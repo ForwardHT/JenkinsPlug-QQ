@@ -1,12 +1,4 @@
-# NotifyQQ
-This is a Jenkins notify plugin, send a message to QQ when a job is finished.
-
-I think this is a demand for Chinese only, so I will write the follow readme content in Chinese. if you want it change to English, please let me know.
-
-## 使用说明
-
-参考我的博客文章：[QQ机器人和Jenkins插件编写](http://blog.go3k.org/qqji-qi-ren-he-jenkinscha-jian-bian-xie/)
-了解插件的工作流程。
+# 使用说明
 
 简单来讲需要做如下准备：
 
