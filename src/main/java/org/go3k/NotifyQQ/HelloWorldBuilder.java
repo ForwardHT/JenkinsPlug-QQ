@@ -181,11 +181,12 @@ public class HelloWorldBuilder extends
     }
     private String QunGenerateMessageURL(String qq, String msg)
     {
-        return String.format("http://127.0.0.1:5000/openqq/send_group_message?uid%s&content=%s", qq, msg);
+
+        return String.format("http://127.0.0.1:5000/openqq/send_group_message?uid=%s&content=%s", qq, msg);
     }
     private String GenerateMessageURL(String qq, String msg)
     {
-        return String.format("http://127.0.0.1:5000/openqq/send_friend_message?uid%s&content=%s", qq, msg);
+        return String.format("http://127.0.0.1:5000/openqq/send_friend_message?uid=%s&content=%s", qq, msg);
     }
 
     protected void send(String url){

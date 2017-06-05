@@ -44,11 +44,11 @@ public class QQNumber    implements Serializable{
     public String GetUrlString() {
         if (type == QQType.Qun)
         {
-            return "send_group_message?gnumber=" + number;
+            return   number;
         }
         else
         {
-            return "send_message?qq=" + number;
+            return  number;
         }
     }
 
